@@ -1,0 +1,23 @@
+.dark-icon {
+  color: azure;
+}
+
+.light-icon {
+  color: rgb(207, 203, 203);
+}
+
+.text-instagram:hover {
+  color: #e4405f; /* Custom Instagram color */
+}
+
+.text-facebook:hover {
+  color: #1877f2; /* Custom Instagram color */
+}
+
+.text-gmail:hover {
+  color: #db4437;
+}
+
+.text-linkedin:hover {
+  color: #0a66c2;
+}

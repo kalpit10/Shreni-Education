@@ -1,0 +1,40 @@
+@keyframes slideIn {
+  from {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.slide-in {
+  animation: slideIn 0.5s ease forwards;
+}
+
+/* Horizontal Line */
+/* At the start of the animation (0% progress), This property translates (moves) the element horizontally by -120% of its own width. 
+   Negative values move the element to the left, so -120% means the element will be positioned 120% of its own width to the left of its initial position. */
+@keyframes slide {
+  0% {
+    transform: translateX(-120%);
+  }
+  /* 50%: At the midpoint of the animation (50% progress), the CSS properties within this block are defined.
+     transform: translateX(70%);: This property translates the element horizontally by 70% of its own width. 
+     Positive values move the element to the right, so 70% means the element will be positioned 70% of its own width to the right of its initial position. */
+  50% {
+    transform: translateX(70%);
+  }
+  /* 100%: At the end of the animation (100% progress), the CSS properties within this block are defined.
+     transform: translateX(-120%);: 
+     This property translates the element horizontally by -120% of its own width, similar to the initial state. It essentially resets the element's position to its original state. */
+  100% {
+    transform: translateX(-120%);
+  }
+}
+
+/* For infinite sliding animation */
+.animate-slide {
+  animation: slide 1.5s ease-in-out infinite;
+}
