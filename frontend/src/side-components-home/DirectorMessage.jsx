@@ -61,7 +61,7 @@ function DirectorMessage() {
                   width: "30px", // Adjust width of the sliding box
                   height: "5px", // Adjust height of the sliding box
                   backgroundColor: "#d1143e", // Adjust background color of the sliding box
-                  top: "150%", // Center vertically
+                  top: "170%", // Center vertically
                   marginTop: "-5px", // Adjust to half of sliding box height
                 }}
               />
