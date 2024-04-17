@@ -7,6 +7,8 @@ import HomeCarousel from "../side-components-home/HomeCarousel";
 import DirectorMessage from "../side-components-home/DirectorMessage";
 import Contact from "./Contact";
 import Curriculum from "../side-components-home/Curriculum";
+import CurriculumSchool from "../side-components-home/CurriculumSchool";
+import StandardisedExams from "../side-components-home/StandardisedExams";
 
 function Home() {
   return (
@@ -16,6 +18,8 @@ function Home() {
       <HomeWelcome />
       <DirectorMessage />
       <Curriculum />
+      <CurriculumSchool />
+      <StandardisedExams />
       <HomeCarousel />
       <Contact />
       <Footer />
