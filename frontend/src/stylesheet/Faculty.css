@@ -1,0 +1,23 @@
+.negative-margin {
+  margin-top: -1.5rem;
+}
+
+.rounded-lg img {
+  transition: box-shadow 0.5s ease-in-out; 
+}
+
+.rounded-lg:hover img {
+  box-shadow: 0 0 0 2px rgb(213, 5, 5); /* Adjust the spread radius value to make the outline thicker */
+  border: 2px solid white; /* Add a white border to maintain the original border appearance */
+}
+
+.custom-emoji {
+  list-style-type: none;
+}
+
+.custom-emoji li::before {
+  content: "*"; 
+  color: #f0e9e9; 
+  font-size: 1.5em;
+  margin-right: 5px;
+}
