@@ -2,6 +2,7 @@ import React, { useState, useEffect, useRef } from "react";
 import { motion } from "framer-motion";
 import Director from "../images/Director.png";
 import "../stylesheet/Home.css";
+import HorizontalLine from "./HorizontalLine";
 
 function DirectorMessage() {
   // State to track whether animation has occurred
@@ -51,20 +52,7 @@ function DirectorMessage() {
               Director's Message
             </h1>
             <div className="relative">
-              <hr
-                className="flex w-1/3 mx-auto h-0.5 my-3 border-0 rounded md:h-0.5 md:w-1/6 xl:w-1/12"
-                style={{ backgroundColor: "#2e3192" }}
-              />
-              <div
-                className="absolute left-1/2 animate-slide rounded"
-                style={{
-                  width: "30px", // Adjust width of the sliding box
-                  height: "5px", // Adjust height of the sliding box
-                  backgroundColor: "#d1143e", // Adjust background color of the sliding box
-                  top: "170%", // Center vertically
-                  marginTop: "-5px", // Adjust to half of sliding box height
-                }}
-              />
+              <HorizontalLine />
             </div>
           </div>
 
@@ -81,8 +69,8 @@ function DirectorMessage() {
             </div>
             {/* Director's Name */}
             <div className="p-4">
-              <p className="text-sm text-gray-500 mb-1">Director</p>
-              <h2 className="text-xl font-bold mb-2">Navita Tewari</h2>
+              <p className="text-sm text-gray-500 mb-1">Director Academics</p>
+              <h2 className="text-2xl font-bold mb-2">Navita Tewari</h2>
               {/* Director's Message */}
               <div className="bg-gray-100 rounded-lg p-4 shadow-lg">
                 <p className="text-gray-700">
