@@ -16,10 +16,10 @@ function Home() {
       <Header />
       <StartHeader />
       <HomeWelcome />
-      <DirectorMessage />
       <Curriculum />
       <CurriculumSchool />
       <StandardisedExams />
+      <DirectorMessage />
       <HomeCarousel />
       <Contact />
       <Footer />
