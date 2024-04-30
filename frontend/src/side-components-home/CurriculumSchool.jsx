@@ -1,7 +1,14 @@
 import React from "react";
 import School from "../images/School.png";
+import { useNavigate } from "react-router-dom";
+import "../stylesheet/Home.css";
 
 function CurriculumSchool() {
+  const navigate = useNavigate();
+
+  const handleClick = () => {
+    navigate("/schoolcurriculum");
+  };
   return (
     <div className="bg-white shadow-lg rounded-lg max-w-4xl mx-auto overflow-hidden mt-5 transform transition-transform duration-300 hover:scale-105 2xl:max-w-5xl">
       <div className="container mx-auto flex flex-col md:flex-row py-8 px-4">
@@ -27,7 +34,10 @@ function CurriculumSchool() {
 
       {/* Learn More Button Section */}
       <div className="text-center pb-8 md:ml-44">
-        <button className="flex mx-auto bg-red-500 text-white rounded-lg py-2 px-6 hover:bg-red-600 focus:outline-none focus:ring-2 focus:ring-red-500 focus:ring-opacity-50">
+        <button
+          onClick={handleClick}
+          className="classy-button-cur"
+        >
           Learn More
         </button>
       </div>
