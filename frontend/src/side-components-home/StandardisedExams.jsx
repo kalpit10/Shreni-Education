@@ -1,5 +1,6 @@
 import React from "react";
 import Exams from "../images/Ielts.png";
+import "../stylesheet/Home.css";
 
 function StandardisedExams() {
   return (
@@ -27,7 +28,7 @@ function StandardisedExams() {
 
       {/* Learn More Button Section */}
       <div className="text-center pb-8 md:ml-44">
-        <button className="flex mx-auto bg-red-500 text-white rounded-lg py-2 px-6 hover:bg-red-600 focus:outline-none focus:ring-2 focus:ring-red-500 focus:ring-opacity-50">
+        <button className="classy-button-cur">
           Learn More
         </button>
       </div>
