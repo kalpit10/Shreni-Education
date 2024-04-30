@@ -11,7 +11,7 @@ function PiyushTiwari() {
     setShowModal(true);
   };
   return (
-    <div className="border mt-16 p-8 md:p-24 rounded-lg bg-gray-50 shadow-2xl max-w-4xl mx-auto w-11/12 mb-5 transform transition-transform duration-500 hover:scale-105">
+    <div className="round-image border mt-16 p-8 md:p-24 rounded-lg bg-gray-50 shadow-2xl max-w-4xl mx-auto w-11/12 mb-5 transform transition-transform duration-500 hover:scale-105">
       <div className="flex flex-col items-center w-full">
         <img
           src={Piyush}
@@ -32,7 +32,7 @@ function PiyushTiwari() {
           <FaEnvelope size={24} className="text-blue-600" />
         </div>
         <button
-          className="bg-[#2e3192] text-white px-4 py-2 rounded-md hover:bg-blue-700 focus:outline-none"
+          className="classy-button"
           onClick={handleModal}
         >
           View Details
