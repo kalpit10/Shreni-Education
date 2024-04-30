@@ -38,3 +38,112 @@
 .animate-slide {
   animation: slide 1.5s ease-in-out infinite;
 }
+
+/* Button styles */
+.classy-button {
+  position: relative;
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #ffffff;
+  font-weight: bold;
+  color: #002df4; /* Default text color */
+  border: 1px solid #002df4; /* Default border color */
+  border-radius: 2px;
+  text-decoration: none;
+  overflow: hidden;
+  z-index: 1;
+  transition: color 2s;
+}
+
+/* Before and after pseudo-elements */
+.classy-button::before,
+.classy-button::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #020f8d; /* New background color */
+  transition: transform 1s ease-in-out;
+  z-index: -1;
+}
+
+/* Before pseudo-element */
+.classy-button::before {
+  left: -3px; /* Adjust left position to align with border */
+  transform: translateX(-100%);
+}
+
+/* After pseudo-element */
+.classy-button::after {
+  right: -3px; /* Adjust right position to align with border */
+  transform: translateX(100%);
+}
+
+/* Button hover state for pseudo-elements */
+.classy-button:hover::before,
+.classy-button:hover::after {
+  transform: translateX(0);
+}
+
+/* Button hover state */
+.classy-button:hover {
+  color: #ffffff; /* Hover text color */
+  border-color: #002df4; /* Hover border color */
+  transition: color 0.8s; /* Transition effect for text color */
+}
+
+/* Curriculum Button Design */
+
+.classy-button-cur {
+  position: relative;
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #ffffff;
+  font-weight: bold;
+  color: #002df4; /* Default text color */
+  border: 1px solid #002df4; /* Default border color */
+  border-radius: 2px;
+  text-decoration: none;
+  overflow: hidden;
+  z-index: 1;
+  transition: color 2s;
+}
+
+/* Before and after pseudo-elements */
+.classy-button-cur::before,
+.classy-button-cur::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #be0000; /* New background color */
+  transition: transform 1s ease-in-out;
+  z-index: -1;
+}
+
+/* Before pseudo-element */
+.classy-button-cur::before {
+  left: -3px; /* Adjust left position to align with border */
+  transform: translateX(-100%);
+}
+
+/* After pseudo-element */
+.classy-button-cur::after {
+  right: -3px; /* Adjust right position to align with border */
+  transform: translateX(100%);
+}
+
+/* Button hover state for pseudo-elements */
+.classy-button-cur:hover::before,
+.classy-button-cur:hover::after {
+  transform: translateX(0);
+}
+
+/* Button hover state */
+.classy-button-cur:hover {
+  color: #ffffff; /* Hover text color */
+  border-color: #be0000; /* Hover border color */
+  transition: color 0.8s; /* Transition effect for text color */
+}
