@@ -166,7 +166,7 @@ function StudentCount() {
               <div className="border p-4 rounded-lg">
                 <CountUp
                   start={0}
-                  end={150}
+                  end={667}
                   duration={3}
                   separator=","
                   redraw={true}
@@ -190,7 +190,7 @@ function StudentCount() {
               <div className="border p-4 rounded-lg">
                 <CountUp
                   start={0}
-                  end={150}
+                  end={850}
                   duration={3}
                   separator=","
                   redraw={true}
@@ -214,7 +214,7 @@ function StudentCount() {
               <div className="border p-4 rounded-lg">
                 <CountUp
                   start={0}
-                  end={150}
+                  end={1000}
                   duration={3}
                   separator=","
                   redraw={true}

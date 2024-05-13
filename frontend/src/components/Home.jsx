@@ -9,10 +9,12 @@ import Contact from "./Contact";
 import Curriculum from "../side-components-home/Curriculum";
 import CurriculumSchool from "../side-components-home/CurriculumSchool";
 import StandardisedExams from "../side-components-home/StandardisedExams";
+import Testimonials from "./Testimonials";
+import "../stylesheet/Home.css"
 
 function Home() {
   return (
-    <div>
+    <div className="position">
       <Header />
       <StartHeader />
       <HomeWelcome />
@@ -21,6 +23,7 @@ function Home() {
       <StandardisedExams />
       <DirectorMessage />
       <HomeCarousel />
+      <Testimonials />
       <Contact />
       <Footer />
     </div>

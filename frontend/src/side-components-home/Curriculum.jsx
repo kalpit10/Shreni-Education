@@ -1,11 +1,18 @@
 import React from "react";
 import EnrollmentImage from "../images/Enrollment.png";
 import CambridgeCentre from "../images/CambridgeEnglishCentre.png";
+import { useNavigate } from "react-router-dom";
 import "../stylesheet/Home.css";
 
 function Curriculum() {
+  const navigate = useNavigate();
+
+  const handleClick = () => {
+    navigate("/cambridge-exams");
+  };
+
   return (
-    <div>
+    <div className="">
       <div className="container mx-auto py-8 px-4">
         <img
           className="w-full xl:w-9/12 xl:mx-auto"
@@ -31,7 +38,7 @@ function Curriculum() {
 
           {/* Course Details Section */}
           <div className="md:w-1/2 md:pl-8 md:order-1">
-            <h1 className="text-3xl font-bold text-red-500 mb-4 mt-5">
+            <h1 className="text-3xl font-bold text-red-500 mb-4 mt-5 hover-underline-animation-home">
               Cambridge English Exams
             </h1>
             <p className="text-lg text-gray-700 leading-relaxed">
@@ -45,7 +52,9 @@ function Curriculum() {
 
         {/* Learn More Button Section */}
         <div className="text-center pb-8 md:ml-44">
-          <button className="classy-button-cur">Learn More</button>
+          <button className="classy-button-cur" onClick={handleClick}>
+            Learn More
+          </button>
         </div>
       </div>
     </div>

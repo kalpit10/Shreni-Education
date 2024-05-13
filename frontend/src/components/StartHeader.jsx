@@ -3,8 +3,8 @@ import ShreniLogo from "../images/Logo.png";
 
 function StartHeader() {
   return (
-    <div className="mt-5">
-      <img src={ShreniLogo} alt="Shreni Logo" style={{height: "200px"}} className="mx-auto"></img>
+    <div className="mt-2">
+      <img src={ShreniLogo} alt="Shreni Logo" style={{height: "150px"}} className="mx-auto"></img>
     </div>
   );
 }

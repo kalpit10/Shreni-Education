@@ -79,16 +79,7 @@ function DirectorMessage() {
                   to extend a helping hand for our students to hold, trust and
                   look up to for guidance. It is a place to nurture
                   unconditional love, affection, responsibility and belief in
-                  oneself. Lorem ipsum dolor sit amet consectetur, adipisicing
-                  elit. Laudantium explicabo exercitationem minima, repudiandae
-                  pariatur ipsam eveniet similique, adipisci assumenda impedit
-                  recusandae quisquam sed. Lorem ipsum dolor sit amet
-                  consectetur adipisicing elit. Officiis dicta corporis officia
-                  nulla suscipit deleniti, mollitia autem assumenda, laborum
-                  nobis neque ad eveniet! Lorem ipsum dolor sit amet consectetur
-                  adipisicing elit. Aliquam aperiam nulla omnis facilis? Ab
-                  quasi omnis quaerat ex minima dolor molestiae perspiciatis
-                  assumenda?
+                  oneself.
                 </p>
               </div>
             </div>

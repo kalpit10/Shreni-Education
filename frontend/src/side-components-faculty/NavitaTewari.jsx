@@ -1,8 +1,10 @@
 import React, { useState } from "react";
-import { FaInstagram, FaLinkedin, FaEnvelope } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa";
+import { BiLogoGmail } from "react-icons/bi";
 import Director from "../images/Navita.png";
 import "../stylesheet/Faculty.css";
 import NavitaTewariModal from "./NavitaTewariModal";
+import { Link } from "react-router-dom";
 
 function NavitaTewari() {
   const [showModal, setShowModal] = useState(false);
@@ -16,10 +18,10 @@ function NavitaTewari() {
       <div className="flex flex-col items-center">
         <img
           src={Director}
-          className="rounded-full object-cover h-24 -mt-16 mb-8"
+          className="rounded-full object-cover h-28 -mt-16 mb-8 md:h-32"
           alt="Director"
         />
-        <h1 className="font-bold text-[#2e3192] text-center text-2xl">
+        <h1 className="font-bold text-[#2e3192] text-center text-2xl hover-underline-animation-faculty">
           Navita Tewari
         </h1>
         <p className="text-black font-bold text-sm text-center">
@@ -29,14 +31,14 @@ function NavitaTewari() {
           Experience: 27 Years
         </p>
         <div className="flex justify-center space-x-4 mb-6">
-          <FaInstagram size={24} className="text-blue-600" />
-          <FaLinkedin size={24} className="text-blue-600" />
-          <FaEnvelope size={24} className="text-blue-600" />
+          <Link to="https://www.linkedin.com/in/navita-tewari-4328b5b3/">
+            <FaLinkedin size={24} className="text-blue-600" />
+          </Link>
+          <a href="mailto: neenutewari@yahoo.com">
+            <BiLogoGmail size={24} className="text-blue-600" />
+          </a>
         </div>
-        <button
-          className="classy-button"
-          onClick={handleModal}
-        >
+        <button className="classy-button" onClick={handleModal}>
           View Details
         </button>
         <NavitaTewariModal

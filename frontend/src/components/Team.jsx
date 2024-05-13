@@ -16,9 +16,13 @@ function Team() {
       <div className="relative negative-margin">
         <HorizontalLine />
       </div>
-      <NavitaTewari />
-      <PiyushTiwari />
-      <Footer />
+      <div className="grid grid-cols-1 md:grid-cols-2">
+        <NavitaTewari />
+        <PiyushTiwari />
+      </div>
+      <div className="xl:mb-auto">
+        <Footer />
+      </div>
     </div>
   );
 }

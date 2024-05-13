@@ -7,7 +7,7 @@ function CurriculumSchool() {
   const navigate = useNavigate();
 
   const handleClick = () => {
-    navigate("/schoolcurriculum");
+    navigate("/school-curriculum");
   };
   return (
     <div className="bg-white shadow-lg rounded-lg max-w-4xl mx-auto overflow-hidden mt-5 transform transition-transform duration-300 hover:scale-105 2xl:max-w-5xl">
@@ -18,7 +18,7 @@ function CurriculumSchool() {
 
         {/* Course Details Section */}
         <div className="md:w-1/2 md:pl-8 md:order-1">
-          <h1 className="text-3xl font-bold text-red-500 mb-4 mt-5">
+          <h1 className="text-3xl font-bold text-red-500 mb-4 mt-5 hover-underline-animation-home">
             School Curriculum
           </h1>
           <p className="text-lg text-gray-700 leading-relaxed">

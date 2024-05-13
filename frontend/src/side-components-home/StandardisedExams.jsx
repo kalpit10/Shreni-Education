@@ -1,8 +1,14 @@
 import React from "react";
 import Exams from "../images/Ielts.png";
+import { useNavigate } from "react-router-dom";
 import "../stylesheet/Home.css";
 
 function StandardisedExams() {
+  const navigate = useNavigate();
+
+  const handleClick = () => {
+    navigate("/standardised-exams");
+  };
   return (
     <div className="bg-white shadow-lg rounded-lg md:max-w-4xl mx-auto overflow-hidden mt-5 transform transition-transform duration-300 hover:scale-105 2xl:max-w-5xl">
       {/* Flex container to manage layout */}
@@ -14,7 +20,7 @@ function StandardisedExams() {
 
         {/* Course Details Section */}
         <div className="md:w-1/2 md:pl-8 md:order-1">
-          <h1 className="text-3xl font-bold text-red-500 mb-4 mt-5">
+          <h1 className="text-3xl font-bold text-red-500 mb-4 mt-5 hover-underline-animation-home">
             Standardised Exams
           </h1>
           <p className="text-lg text-gray-700 leading-relaxed">
@@ -28,7 +34,7 @@ function StandardisedExams() {
 
       {/* Learn More Button Section */}
       <div className="text-center pb-8 md:ml-44">
-        <button className="classy-button-cur">
+        <button className="classy-button-cur" onClick={handleClick}>
           Learn More
         </button>
       </div>

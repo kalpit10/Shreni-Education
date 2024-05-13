@@ -15,10 +15,10 @@ function PiyushTiwari() {
       <div className="flex flex-col items-center w-full">
         <img
           src={Piyush}
-          className="rounded-full object-cover h-24 -mt-16 mb-8"
+          className="rounded-full object-cover h-28 -mt-16 mb-8 md:h-32"
           alt="Director"
         />
-        <h1 className="font-bold text-[#2e3192] text-center text-2xl">
+        <h1 className="font-bold text-[#2e3192] text-center text-2xl hover-underline-animation-faculty">
           Piyush Kumar Tiwari
         </h1>
         <p className="text-black font-bold text-sm text-center">
@@ -28,13 +28,9 @@ function PiyushTiwari() {
           Experience: 10 Years
         </p>
         <div className="flex justify-center space-x-4 mb-6">
-          <FaInstagram size={24} className="text-blue-600" />
           <FaEnvelope size={24} className="text-blue-600" />
         </div>
-        <button
-          className="classy-button"
-          onClick={handleModal}
-        >
+        <button className="classy-button" onClick={handleModal}>
           View Details
         </button>
         <PiyushModal
