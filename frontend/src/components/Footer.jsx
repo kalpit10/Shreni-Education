@@ -32,25 +32,25 @@ function Footer() {
           <div className="flex sm:flex sm:justify-between justify-center mt-4">
             <Link to="https://www.instagram.com/shrenieducation/">
               <FaInstagram
-                className="bg-white rounded text-instagram cursor-pointer"
+                className="icon-outline rounded text-instagram cursor-pointer"
                 size={24}
               />
             </Link>
             <Link to="https://www.facebook.com/profile.php?id=100064210085451">
               <FaFacebook
-                className="mx-3 bg-white text-facebook rounded cursor-pointer"
+                className="icon-outline mx-3 icon-outline text-facebook rounded cursor-pointer"
                 size={24}
               />
             </Link>
             <a href="mailto:shrenieducation@gmail.com">
               <BiLogoGmail
-                className=" bg-white text-gmail rounded cursor-pointer"
+                className="icon-outline text-gmail rounded cursor-pointer"
                 size={24}
               />
             </a>
             <Link to="https://www.linkedin.com/company/shrenieducation/about/">
               <FaLinkedin
-                className="mx-3 bg-white text-linkedin rounded cursor-pointer"
+                className="mx-3 icon-outline text-linkedin rounded cursor-pointer"
                 size={24}
               />
             </Link>
