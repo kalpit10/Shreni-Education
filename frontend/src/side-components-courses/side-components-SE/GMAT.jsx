@@ -17,7 +17,7 @@ function GMAT() {
           <br />
           <br />
           <span className="font-semibold">
-            We at Shreni help you with the preparation of English grammar for
+            *We at Shreni help you with the preparation of English grammar for
             GMAT.
           </span>
         </p>

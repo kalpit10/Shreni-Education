@@ -16,7 +16,7 @@ function SAT() {
           <br />
           <br />
           <span className="font-semibold">
-            We at Shreni help you with the preparation of Reading, Writing and
+            *We at Shreni help you with the preparation of Reading, Writing and
             the Language section.
           </span>
         </p>
