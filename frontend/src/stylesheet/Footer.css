@@ -7,11 +7,11 @@
 }
 
 .text-instagram:hover {
-  color: #e4405f; /* Custom Instagram color */
+  color: #e4405f;
 }
 
 .text-facebook:hover {
-  color: #1877f2; /* Custom Instagram color */
+  color: #1877f2;
 }
 
 .text-gmail:hover {
@@ -20,4 +20,10 @@
 
 .text-linkedin:hover {
   color: #0a66c2;
+}
+
+.icon-outline {
+  color: white; /* Ensure the icon itself is white */
+  box-shadow: 0 0 4px 0px rgba(255, 255, 255, 0.8); /* White outline */
+  border-radius: 50%; /* Optional: to make the outline circular */
 }
