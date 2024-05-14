@@ -57,7 +57,7 @@ function DirectorMessage() {
           </div>
 
           {/* Director's Photo */}
-          <div className="flex flex-col xl:flex-row bg-white w-full md:w-1/2 md:mx-auto rounded-lg p-4 md:p-8 lg:p-12 xl:p-16 shadow-lg min-w-0">
+          <div className="flex flex-col xl:flex-row bg-white w-full md:w-1/2 md:mx-auto rounded-lg p-4 md:p-8 lg:p-12 xl:p-16 shadow-lg min-w-0 2xl:w-6/12">
             <div className="md:w-1/2 md:mr-8 md:pl-16 lg:pl-32 xl:pl-0">
               <div className="w-full md:w-60">
                 <img
