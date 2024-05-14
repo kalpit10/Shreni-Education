@@ -30,7 +30,7 @@ function SE() {
           tasks, developing accuracy, and fine-tuning skills to ensure success.
         </Typography>
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mx-auto max-w-7xl px-4 md:pb-12">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mx-auto max-w-7xl px-4 md:pb-12 2xl:pb-36">
         <div>
           <IELTS />
         </div>
