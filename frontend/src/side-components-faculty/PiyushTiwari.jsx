@@ -18,7 +18,7 @@ function PiyushTiwari() {
           className="rounded-full object-cover h-28 -mt-16 mb-8 md:h-32"
           alt="Director"
         />
-        <h1 className="font-bold text-[#2e3192] text-center text-2xl hover-underline-animation-faculty">
+        <h1 className="font-bold text-[#2e3192] text-center text-2xl hover-underline-animation-faculty md:whitespace-nowrap">
           Piyush Kumar Tiwari
         </h1>
         <p className="text-black font-bold text-sm text-center">
