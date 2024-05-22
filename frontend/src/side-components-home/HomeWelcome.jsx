@@ -40,7 +40,7 @@ function HomeWelcome() {
     >
       <div className="flex flex-col md:flex-row border bg-red-700 p-56 md:rounded-3xl overflow-hidden position">
         <div
-          className="absolute inset-0 bg-no-repeat bg-center h-full mt-56"
+          className="absolute inset-0 bg-no-repeat bg-center h-full mt-56 md:mt-60"
           style={{
             backgroundImage: `url(${WelcomeImage})`,
           }}
