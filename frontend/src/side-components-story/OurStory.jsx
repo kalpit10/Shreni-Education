@@ -2,16 +2,13 @@ import React from "react";
 import { FaUniversity, FaUserGraduate, FaBook } from "react-icons/fa";
 import Tilt from "react-parallax-tilt";
 import "../stylesheet/Story.css";
+import HorizontalLine from "../side-components-home/HorizontalLine";
 
 const OurStory = () => {
   return (
     <div>
-      <div className="bg-gray-100 py-16 px-4 sm:px-6 lg:px-8">
+      <div className="py-16 px-4 sm:px-6 lg:px-8">
         <div className="max-w-5xl mx-auto">
-          <h2 className="text-4xl font-extrabold text-gray-800 text-center mb-8 font-serif hover-underline-animation-story md:text-5xl">
-            Our Journey
-          </h2>
-
           <div className="grid grid-cols-1 gap-8 md:grid-cols-3 hover:cursor-move">
             <Tilt
               className="parallax-effect"
