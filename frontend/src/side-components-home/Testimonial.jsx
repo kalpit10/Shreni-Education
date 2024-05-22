@@ -61,11 +61,11 @@ const data = [
     course: "School Curriculum - English(Online)",
   },
   {
-    name: "Pavandeep Kaur",
+    name: "Chetan Sabharwal",
     img: Testimonial7,
     review:
-      "Very friendly environment. Teachers are very supportive and always ready to help students. At Shreni, I found realistic, honest and objective oriented approach that they followed.",
-    course: "IELTS Band - 6.5",
+      "I was taught Accountancy, Economics and Business Studies by Piyush sir. I had so many doubts every time and he was always there to clear them. He always gave his 100% while teaching us and made me love my subjects.",
+    course: "School Curriculum - Business Studies, Accountancy and Economics",
   },
   {
     name: "Nikita Singh",
