@@ -21,8 +21,8 @@ function Contact() {
     // };
 
     emailjs
-      .sendForm("service_0m7g8qo", "template_x1ui8d6", form.current, {
-        publicKey: "-Yykimd20_6il6YCS",
+      .sendForm("service_e44kd2o", "template_c13oxk5", form.current, {
+        publicKey: "-WNCpAPeASefKHnX1x",
       })
       .then(
         () => {
