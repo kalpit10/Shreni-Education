@@ -4,7 +4,7 @@ function HorizontalLine() {
   return (
     <div>
       <hr
-        className="flex w-1/3 mx-auto h-0.5 my-3 border-0 rounded md:h-0.5 md:w-1/6 xl:w-1/12"
+        className="flex w-1/3 mx-auto h-0.5 my-3 border-0 rounded md:h-0.5 sm:w-1/6 md:w-1/6 xl:w-1/12"
         style={{ backgroundColor: "#2e3192" }}
       />
       <div
