@@ -44,7 +44,7 @@ const data = [
     img: Testimonial4,
     review:
       "Learning a language has unexpectedly transformed my daily life. Since completing the course, I've noticed significant improvements in my English scores and spoken English skills. The unique and practical teaching technique boosted my confidence to converse in English, a skill I lacked before. I'm thankful to Shreni for enhancing my language skills and overall confidence.",
-    course: "A2 Key",
+    course: "C1 Advanced",
   },
   {
     name: "Rahul Ranjan",
