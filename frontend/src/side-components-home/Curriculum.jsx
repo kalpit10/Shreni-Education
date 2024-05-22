@@ -1,6 +1,6 @@
 import React from "react";
 import EnrollmentImage from "../images/Enrollment.png";
-import CambridgeCentre from "../images/CambridgeEnglishCentre.png";
+import CambridgeCentre from "../images/CambridgeEnglish.png";
 import { useNavigate } from "react-router-dom";
 import "../stylesheet/Home.css";
 
