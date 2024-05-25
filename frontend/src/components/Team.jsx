@@ -5,6 +5,7 @@ import HorizontalLine from "../side-components-home/HorizontalLine";
 import "../stylesheet/Faculty.css";
 import NavitaTewari from "../side-components-faculty/NavitaTewari";
 import PiyushTiwari from "../side-components-faculty/PiyushTiwari";
+import VandanaSwami from "../side-components-faculty/VandanaSwami";
 
 function Team() {
   return (
@@ -16,9 +17,10 @@ function Team() {
       <div className="relative negative-margin">
         <HorizontalLine />
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-2">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
         <NavitaTewari />
         <PiyushTiwari />
+        <VandanaSwami />
       </div>
       <div className="xl:mb-auto">
         <Footer />
