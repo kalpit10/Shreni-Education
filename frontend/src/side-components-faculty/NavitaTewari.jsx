@@ -28,7 +28,7 @@ function NavitaTewari() {
           Director Academics
         </p>
         <p className="text-black text-lg text-center mb-6">
-          Experience: 27 Years
+          Experience: 31 Years
         </p>
         <div className="flex justify-center space-x-4 mb-6">
           <Link to="https://www.linkedin.com/in/navita-tewari-4328b5b3/">

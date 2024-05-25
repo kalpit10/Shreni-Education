@@ -25,7 +25,7 @@ function PiyushTiwari() {
           Director Administration
         </p>
         <p className="text-black text-lg text-center mb-6">
-          Experience: 10 Years
+          Experience: 11 Years
         </p>
         <div className="flex justify-center space-x-4 mb-6">
           <FaEnvelope size={24} className="text-blue-600" />

@@ -18,14 +18,14 @@ function NavitaTewariModal({ isVisible, onClose }) {
           <div className="text-right ml-8">
             <h1 className="font-bold text-xl">Navita Tewari</h1>
             <p>Director Academics</p>
-            <p>Experience: 27 Years</p>
+            <p>Experience: 31 Years</p>
           </div>
         </div>
         <div className="mt-4">
           <h2 className="font-bold mb-3">Faculty Description</h2>
           <p>
             <span className="font-semibold"> Director Academics</span> at Shreni
-            Education with over 27 years of teaching experience as{" "}
+            Education with over 31 years of teaching experience as{" "}
             <span className="font-semibold">
               {" "}
               Senior Secondary Headmistress
