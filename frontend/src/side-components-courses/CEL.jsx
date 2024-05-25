@@ -2,7 +2,6 @@ import React from "react";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 import { Typography } from "@mui/material";
-import YLE1 from "../images/YLE.png";
 import YLE from "./side-components-CEL/YLE";
 import YLE02 from "./side-components-CEL/YLE02";
 import YLE03 from "./side-components-CEL/YLE03";
@@ -45,14 +44,16 @@ function CEL() {
         <h1 className="text-3xl font-bold underline text-center font-serif">
           Young Learner's English
         </h1>
-        <img src={YLE1} alt="YLE" className="mx-auto mt-5" />
       </div>
+      <WhyYLE />
       <div className="grid grid-cols-1 lg:grid-cols-3">
         <YLE />
         <YLE02 />
         <YLE03 />
       </div>
-      <WhyYLE />
+      <div className="mt-5">
+        <YLECarousel />
+      </div>
       <div className="mt-12">
         <h1 className="text-3xl font-bold underline text-center font-serif">
           Levels A2 to C1
@@ -64,7 +65,6 @@ function CEL() {
         <YLE06 />
         <YLE07 />
       </div>
-      <YLECarousel />
       <Footer />
     </div>
   );
