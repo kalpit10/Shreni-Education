@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { FaInstagram, FaEnvelope } from "react-icons/fa";
+import { BiLogoGmail } from "react-icons/bi";
 import "../stylesheet/Faculty.css";
 import Piyush from "../images/Piyush.png";
 import PiyushModal from "./PiyushModal";
@@ -21,14 +21,14 @@ function PiyushTiwari() {
         <h1 className="font-bold text-[#2e3192] text-center text-2xl hover-underline-animation-faculty md:whitespace-nowrap">
           Piyush Kumar Tiwari
         </h1>
-        <p className="text-black font-bold text-sm text-center">
+        <p className="text-black font-bold text-sm text-center whitespace-nowrap">
           Director Administration
         </p>
-        <p className="text-black text-lg text-center mb-6">
+        <p className="text-black text-lg text-center mb-6 whitespace-nowrap">
           Experience: 11 Years
         </p>
         <div className="flex justify-center space-x-4 mb-6">
-          <FaEnvelope size={24} className="text-blue-600" />
+          <BiLogoGmail size={24} className="text-blue-600" />
         </div>
         <button className="classy-button" onClick={handleModal}>
           View Details
