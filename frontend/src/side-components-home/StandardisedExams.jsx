@@ -9,6 +9,8 @@ function StandardisedExams() {
   const handleClick = () => {
     navigate("/standardised-exams");
   };
+
+ 
   return (
     <div className="bg-white shadow-lg rounded-lg md:max-w-4xl mx-auto overflow-hidden mt-5 transform transition-transform duration-300 hover:scale-105 2xl:max-w-5xl">
       {/* Flex container to manage layout */}
@@ -29,14 +31,13 @@ function StandardisedExams() {
             tasks first followed by developing the accuracy and later
             fine-tuning the mind, body, and soul to crack the exam.
           </p>
+          {/* Learn More Button Section */}
+          <div className="flex md:justify-start text-center pb-8 mt-4">
+            <button className="classy-button-cur mr-3" onClick={handleClick}>
+              Our Curriculum
+            </button>
+          </div>
         </div>
-      </div>
-
-      {/* Learn More Button Section */}
-      <div className="text-center pb-8 md:ml-44">
-        <button className="classy-button-cur" onClick={handleClick}>
-          Learn More
-        </button>
       </div>
     </div>
   );
