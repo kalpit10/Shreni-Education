@@ -20,7 +20,7 @@ function StudentCount() {
               <div className="border p-4 rounded-lg">
                 <CountUp
                   start={0}
-                  end={25}
+                  end={16}
                   duration={3}
                   separator=","
                   redraw={true}
