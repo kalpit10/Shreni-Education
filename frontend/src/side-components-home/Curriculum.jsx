@@ -11,6 +11,10 @@ function Curriculum() {
     navigate("/cambridge-exams");
   };
 
+  const linkClick = () => {
+    window.location.href = "https://www.cambridgeenglish.org/";
+  };
+
   return (
     <div className="">
       <div className="container mx-auto py-8 px-4">
@@ -37,24 +41,26 @@ function Curriculum() {
           </div>
 
           {/* Course Details Section */}
-          <div className="md:w-1/2 md:pl-8 md:order-1">
+          <div className="md:w-1/2 md:pl-8 md:order-1 justify-center">
             <h1 className="text-3xl font-bold text-red-500 mb-4 mt-5 hover-underline-animation-home">
               Cambridge English Exams
             </h1>
-            <p className="text-lg text-gray-700 leading-relaxed">
+            <p className="text-lg text-gray-700 leading-relaxed mb-4">
               A journey to the world’s most widely accepted English
               qualifications by over 20,000 employers, universities, and
               government organisations, valid as English proficiency exams for
               study, work, and immigration visas.
             </p>
+            {/* Learn More Button Section */}
+            <div className="flex md:justify-start">
+              <button className="classy-button-cur mr-3" onClick={handleClick}>
+                Our Curriculum
+              </button>
+              <button className="classy-button-cur" onClick={linkClick}>
+                Official Website
+              </button>
+            </div>
           </div>
-        </div>
-
-        {/* Learn More Button Section */}
-        <div className="text-center pb-8 md:ml-44">
-          <button className="classy-button-cur" onClick={handleClick}>
-            Learn More
-          </button>
         </div>
       </div>
     </div>
