@@ -63,12 +63,12 @@ function HomeWelcome() {
           animate={isVisible ? { opacity: 1, y: 0 } : { opacity: 0, y: 50 }}
           transition={{ duration: 0.5 }}
         >
-          Great Tutors Right Results!
+          Personalised Classes!
           <br />
-          Get Desired Score in IELTS Exam.
+          Right Guidance, Desired Results!
         </motion.span>
         <motion.div
-          className="typewriter-effect my-3 font-bold text-xl md:text-2xl w-full text-[#ffc107] text-center position-text"
+          className="typewriter-effect my-3 mr-3 font-bold text-xl md:text-2xl w-full text-[#ffc107] text-center position-text"
           initial={{ opacity: 0, y: 50 }}
           animate={isVisible ? { opacity: 1, y: 0 } : { opacity: 0, y: 50 }}
           transition={{ duration: 0.5, delay: 0.3 }}
@@ -76,9 +76,11 @@ function HomeWelcome() {
           <TypeWriter
             options={{
               strings: [
-                "#1stCambridgeInstituteInFaridabad",
+                "#CBSE-ICSE-ISC-IGCSE",
+                "#PrepareForCambridgeEnglishExams",
                 "#IELTSCoaching",
-                "#CurriculumTillClassXII",
+                "#SchoolCurriculum[I-XII]",
+                "#SAT-GMAT[ENGLISH]",
               ],
               delay: 70,
               autoStart: true,
