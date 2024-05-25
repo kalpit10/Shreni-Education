@@ -22,7 +22,7 @@ const data = [
     img: Testimonial1,
     review:
       "My experience at Shreni was extremely enriching. Navita mam's teaching skills as well as the practice material provided by her helped me score well in IELTS. I'm extremely grateful.",
-    course: "IELTS Band - 8.5",
+    course: "IELTS [General] Band - 8.5",
   },
   {
     name: "Trisha Verma",
@@ -43,7 +43,7 @@ const data = [
     name: "Ojasvi Bharmi",
     img: Testimonial4,
     review:
-      "Learning a language has unexpectedly transformed my daily life. Since completing the course, I've noticed significant improvements in my English scores and spoken English skills. The unique and practical teaching technique boosted my confidence to converse in English, a skill I lacked before. I'm thankful to Shreni for enhancing my language skills and overall confidence.",
+      "Learning a language has unexpectedly transformed my daily life. During the course, I noticed significant improvements in my English scores and spoken English skills. The unique and practical teaching technique boosted my confidence to converse in English, a skill I lacked before. I'm thankful to Shreni for enhancing my language skills and overall confidence.",
     course: "C1 Advanced",
   },
   {
@@ -57,7 +57,7 @@ const data = [
     name: "Arshya Loomba",
     img: Testimonial6,
     review:
-      "Shreni is an inspirational institution that makes students excel in whatever they aspire. Concepts well explained & thoroughly guided answer writing techniques helped improving my scores exceptionally.",
+      "Shreni is an inspirational institution that makes students excel in whatever they aspire. Concepts well explained & thoroughly guided answer writing techniques helped improve my scores.",
     course: "School Curriculum - English(Online)",
   },
   {
@@ -71,7 +71,7 @@ const data = [
     name: "Nikita Singh",
     img: Testimonial8,
     review:
-      "Shreni unlike other institutes has a really friendly atmosphere which makes it easy and fun for children to learn. Teachers are extremely supportive and kind specially Navita Ma'am, she is one of the best teachers I've studied from so far.",
+      "Shreni, unlike other institutes, has a really friendly atmosphere which makes it easy and fun for children to learn. Teachers are extremely supportive and kind specially Navita Ma'am, she is one of the best teachers I've studied from so far.",
     course:
       "School Curriculum - English, Accounts, Maths, Social Studies and Science",
   },
@@ -80,28 +80,28 @@ const data = [
     img: Testimonial9,
     review:
       "Navita ma'am's nurturing teaching style made learning comfortable and enjoyable. Despite the challenges of returning to studies after a long break, her guidance and expertise were invaluable. Thanks to her, I achieved a great score, allowing my husband and me to pursue our dreams. I'm grateful for Shreni's support and hope others benefit from their teaching.",
-    course: "IELTS Band - 7.5",
+    course: "IELTS [General] Band - 7.5",
   },
   {
     name: "Parul Chaudhary",
     img: Testimonial10,
     review:
       "I studied IELTS for my PR application and at Shreni Education I got proper guidance on how to study to get required scores and how to direct your efforts to make things achievable.",
-    course: "IELTS Band - 7",
+    course: "IELTS [General] Band - 7",
   },
   {
     name: "Nippun Dudeja",
     img: Testimonial11,
     review:
       "Shreni provided me with an excellent support for my IELTS study and beyond. They prepare you for the next step in your life by providing matchless academic service and personal advice.",
-    course: "IELTS Band - 7.5",
+    course: "IELTS [Academic] Band - 7.5",
   },
   {
     name: "Kalpit Swami",
     img: Testimonial12,
     review:
       "Navita Ma'am is an exceptional English teacher. Her friendly demeanor and insightful guidance during my English and IELTS studies created a comforting learning environment, devoid of any professional stiffness. Highly recommended!",
-    course: "School-Curriculum - English, IELTS Band - 7",
+    course: "School-Curriculum - English, IELTS [Academic] Band - 7",
   },
 ];
 
