@@ -21,13 +21,13 @@ function NavitaTewari() {
           className="rounded-full object-cover h-28 -mt-16 mb-8 md:h-32"
           alt="Director"
         />
-        <h1 className="font-bold text-[#2e3192] text-center text-2xl hover-underline-animation-faculty">
+        <h1 className="font-bold text-[#2e3192] text-center text-2xl hover-underline-animation-faculty whitespace-nowrap">
           Navita Tewari
         </h1>
-        <p className="text-black font-bold text-sm text-center">
+        <p className="text-black font-bold text-sm text-center whitespace-nowrap">
           Director Academics
         </p>
-        <p className="text-black text-lg text-center mb-6">
+        <p className="text-black text-lg text-center mb-6 whitespace-nowrap">
           Experience: 31 Years
         </p>
         <div className="flex justify-center space-x-4 mb-6">

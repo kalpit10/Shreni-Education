@@ -16,9 +16,11 @@ function NavitaTewariModal({ isVisible, onClose }) {
             className="w-20 h-20 rounded-full -ml-5"
           />
           <div className="text-right ml-8">
-            <h1 className="font-bold text-xl">Navita Tewari</h1>
-            <p>Director Academics</p>
-            <p>Experience: 31 Years</p>
+            <h1 className="font-bold text-xl whitespace-nowrap">
+              Navita Tewari
+            </h1>
+            <p className="whitespace-nowrap">Director Academics</p>
+            <p className="whitespace-nowrap">Experience: 31 Years</p>
           </div>
         </div>
         <div className="mt-4">
@@ -41,6 +43,9 @@ function NavitaTewariModal({ isVisible, onClose }) {
               <li>Cambridge English Exams</li>
               <li>GMAT (ENGLISH)</li>
               <li>SAT (ENGLISH)</li>
+              <li>History</li>
+              <li>Geography</li>
+              <li>Political Science</li>
             </ul>
           </p>
         </div>
