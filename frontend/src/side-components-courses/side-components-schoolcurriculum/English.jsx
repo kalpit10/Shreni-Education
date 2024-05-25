@@ -47,7 +47,7 @@ function EnglishSubject() {
                 </Typography>
                 <Typography variant="body2">
                   <span className="font-bold">Board:</span>{" "}
-                  <span className="font-semibold">CBSE / ICSE / ISC</span>
+                  <span className="font-semibold">CBSE / ICSE / ISC/ IGCSE</span>
                 </Typography>
                 <Typography variant="body2" style={{ marginTop: 10 }}>
                   <strong>Teacher:</strong> Navita Tewari
