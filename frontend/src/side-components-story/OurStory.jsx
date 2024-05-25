@@ -77,7 +77,7 @@ const OurStory = () => {
                 <p className="text-gray-600">
                   Having started with just 16 students, it has now grown over
                   the years with more than an average of hundred new enrollments
-                  annually.Initially, also catering to the neighbourhood needs
+                  annually. Initially, also catering to the neighbourhood needs
                   of school curriculum across{" "}
                   <span className="font-bold">
                     {" "}
@@ -112,10 +112,11 @@ const OurStory = () => {
                   On popular demand, Shreni Education started teaching{" "}
                   <span className="font-bold">
                     {" "}
-                    IELTS, TOEFL, SAT, GMAT, GRE, and PTE (only English),{" "}
+                    IELTS, TOEFL, SAT, GMAT (only English), GRE (only English),
+                    and PTE{" "}
                   </span>{" "}
                   in 2014. Each course comes with proper lesson plans tailored
-                  to meet individual requirements.At Shreni Education, we offer
+                  to meet individual requirements. At Shreni Education, we offer
                   comprehensive education solutions beyond language training.
                   Our students not only excel in English but also in{" "}
                   <span className="font-bold">
