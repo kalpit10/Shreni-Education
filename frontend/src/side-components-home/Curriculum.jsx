@@ -34,7 +34,7 @@ function Curriculum() {
         <div className="container mx-auto flex flex-col md:flex-row py-8 px-4">
           <div className="md:w-1/2">
             <img
-              className="w-full"
+              className="w-full md:mt-36 lg:mt-0"
               src={CambridgeCentre}
               alt="Cambridge Authorised Centre"
             />
@@ -53,10 +53,16 @@ function Curriculum() {
             </p>
             {/* Learn More Button Section */}
             <div className="flex md:justify-start">
-              <button className="classy-button-cur mr-3" onClick={handleClick}>
+              <button
+                className="classy-button-cur mr-3 whitespace-nowrap"
+                onClick={handleClick}
+              >
                 Our Curriculum
               </button>
-              <button className="classy-button-cur" onClick={linkClick}>
+              <button
+                className="classy-button-cur whitespace-nowrap"
+                onClick={linkClick}
+              >
                 Official Website
               </button>
             </div>
