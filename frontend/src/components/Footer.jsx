@@ -32,13 +32,7 @@ function Footer() {
           <div className="flex sm:flex sm:justify-between justify-center mt-4">
             <Link to="https://www.instagram.com/shrenieducation/">
               <FaInstagram
-                className="icon-outline rounded text-instagram cursor-pointer"
-                size={24}
-              />
-            </Link>
-            <Link to="https://www.facebook.com/profile.php?id=100064210085451">
-              <FaFacebook
-                className="icon-outline mx-3 icon-outline text-facebook rounded cursor-pointer"
+                className="mx-3 icon-outline rounded text-instagram cursor-pointer"
                 size={24}
               />
             </Link>
