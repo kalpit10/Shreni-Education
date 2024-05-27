@@ -156,7 +156,7 @@ function Testimonials() {
       <div className="text-center py-10">
         <h5 className="text-heading_color">Testimonials</h5>
         <h1 className="text-4xl w-96 mx-auto leading-normal font-bold mb-12">
-          Read What Others Have to Say!{" "}
+          Hear From Our Students!{" "}
         </h1>
         <div className="mt-20 mx-9 cursor-pointer">
           <Slider {...settings}>
