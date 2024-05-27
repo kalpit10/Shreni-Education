@@ -10,14 +10,13 @@ function StandardisedExams() {
     navigate("/standardised-exams");
   };
 
- 
   return (
     <div className="bg-white shadow-lg rounded-lg md:max-w-4xl mx-auto overflow-hidden mt-5 transform transition-transform duration-300 hover:scale-105 2xl:max-w-5xl">
       {/* Flex container to manage layout */}
       <div className="container mx-auto flex flex-col md:flex-row py-8 px-4">
         {/* Image Section */}
         <div className="md:w-1/2">
-          <img className="w-full" src={Exams} alt="School" />
+          <img className="w-full md:mt-32 lg:mt-0" src={Exams} alt="School" />
         </div>
 
         {/* Course Details Section */}
