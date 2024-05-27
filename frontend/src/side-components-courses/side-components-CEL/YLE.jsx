@@ -12,7 +12,7 @@ function YLE() {
         <hr className="bg-[#ffffff] -ml-3 pb-0.5" />
         <div>
           <h2 className="text-[#fffdf6] text-lg whitespace-nowrap -ml-3 mt-3 font-semibold font-serif">
-            Pre A1 Starters(YLE Starters)
+            Pre A1 Starters (YLE Starters)
           </h2>
           <p className="text-[#fffdf6] -ml-3 mt-2">
             <span className="font-bold">Pre A1 Starters</span> is the first of
@@ -23,13 +23,13 @@ function YLE() {
             This course can help your child take their first step towards:
           </p>
           <ol className="text-[#fffdf6]">
-            <li className="font-semibold">
+            <li className="">
               – understanding basic English content on the internet
             </li>
-            <li className="font-semibold">
+            <li className="">
               – enjoying books, songs, television and films in English
             </li>
-            <li className="font-semibold">– making friends globally</li>
+            <li className="">– making friends globally</li>
           </ol>
         </div>
       </div>

@@ -19,21 +19,21 @@ function YLE07() {
           </p>
 
           <ol className="mt-4 text-[#fffdf6]">
-            <li className="font-semibold">
+            <li className="">
               – Demonstrate the level of English required for demanding academic
               and professional settings
             </li>
-            <li className="mt-2 font-semibold">
+            <li className="mt-2 ">
               – Follow any academic course at university level
             </li>
-            <li className="mt-2 font-semibold">
+            <li className="mt-2 ">
               – Communicate effectively at managerial and professional levels
             </li>
-            <li className="mt-2 font-semibold">
+            <li className="mt-2 ">
               – Participate with confidence in workplace meetings or academic
               tutorials and seminars
             </li>
-            <li className="mt-2 font-semibold">
+            <li className="mt-2 ">
               – Carry out complex and challenging research
             </li>
           </ol>

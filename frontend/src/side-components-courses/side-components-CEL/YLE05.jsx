@@ -21,19 +21,19 @@ function YLE05() {
           </p>
 
           <ol className="mt-4 text-[#fffdf6]">
-            <li className="font-semibold">
+            <li className="">
               – Understand the main points of straightforward instructions and
               public announcements
             </li>
-            <li className="mt-2 font-semibold">
+            <li className="mt-2">
               – Understand instructions in class and homework given by a teacher
               or lecturer{" "}
             </li>
-            <li className="mt-2 font-semibold">
+            <li className="mt-2">
               – Ask simple questions and take part in factual conversations in
               school and study environments{" "}
             </li>
-            <li className="mt-2 font-semibold">
+            <li className="mt-2">
               – Write a description of an event, for example, a school trip{" "}
             </li>
           </ol>

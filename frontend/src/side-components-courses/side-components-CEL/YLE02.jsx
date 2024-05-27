@@ -21,14 +21,14 @@ function YLE02() {
             This course can help your child:
           </p>
           <ol className="mt-2 text-[#c8133e]">
-            <li className="font-semibold">
+            <li className="">
               – understand basic instructions or take part in simple
               conversations{" "}
             </li>
-            <li className="font-semibold">
+            <li className="">
               – understand basic notices, instructions or information{" "}
             </li>
-            <li className="-semibold">
+            <li className="">
               – complete basic forms and write notes, including times, dates and
               places
             </li>

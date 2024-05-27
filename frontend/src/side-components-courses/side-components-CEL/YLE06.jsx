@@ -20,14 +20,14 @@ function YLE06() {
           </p>
 
           <ol className="mt-4 text-[#c8133e]">
-            <li className="font-semibold">
+            <li className="">
               – Understand the main idea of complex pieces of writing
             </li>
-            <li className="mt-2 font-semibold">
+            <li className="mt-2 ">
               – Keep up a conversation on a fairly wide range of topics,
               expressing opinions and presenting arguments
             </li>
-            <li className="mt-2 font-semibold">
+            <li className="mt-2 ">
               – Produce clear, detailed writing, expressing opinions and
               explaining the advantages and disadvantages of different points of
               view

@@ -21,16 +21,12 @@ function YLE03() {
             This course can help your child:
           </p>
           <ol className="mt-2 text-[#fffdf6]">
-            <li className="font-semibold">
-              – communicate in familiar situations
-            </li>
-            <li className="font-semibold">
-              – understand simple written English
-            </li>
-            <li className="font-semibold">
+            <li className="">– communicate in familiar situations</li>
+            <li className="">– understand simple written English</li>
+            <li className="">
               – understand and use basic phrases and expressions
             </li>
-            <li className="font-semibold">
+            <li className="">
               – interact with English speakers who talk slowly and clearly{" "}
             </li>
           </ol>

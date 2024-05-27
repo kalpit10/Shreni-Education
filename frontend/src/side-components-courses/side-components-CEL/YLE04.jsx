@@ -20,13 +20,9 @@ function YLE04() {
           </p>
 
           <ol className="mt-4 text-[#c8133e]">
-            <li className="font-semibold">
-              – Understand simple questions and instructions
-            </li>
-            <li className="mt-2 font-semibold">
-              – Express simple opinions and needs
-            </li>
-            <li className="mt-2 font-semibold">
+            <li className="">– Understand simple questions and instructions</li>
+            <li className="mt-2 ">– Express simple opinions and needs</li>
+            <li className="mt-2 ">
               – Complete forms and write short, simple letters or postcards
               related to personal information
             </li>
