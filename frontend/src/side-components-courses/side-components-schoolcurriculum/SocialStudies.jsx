@@ -8,8 +8,9 @@ function SocialStudies() {
 
   // Animation spring for card flip
   const props = useSpring({
-    from: { x: 0 },
-    to: { x: 1 },
+    from: { opacity: 0, transform: "scale(0.5)" },
+    to: { opacity: 1, transform: "scale(1)" },
+    config: { tension: 220, friction: 120 },
   });
 
   return (
@@ -20,13 +21,7 @@ function SocialStudies() {
           onClick={() => setFlipped(!flipped)}
           style={{ cursor: "pointer" }}
         >
-          <animated.div
-            style={{
-              transform: props.x
-                .to([0, 1], [0, 360])
-                .to((value) => `rotateZ(${value}deg)`),
-            }}
-          >
+          <animated.div style={props}>
             <Card elevation={3} className="lg:pb-12 xl:pb-0 xl:mt-24">
               <CardContent className="text-[#c8133e]">
                 <img src={SST} alt="Subject" className="w-full mb-4 md:h-52" />

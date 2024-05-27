@@ -9,8 +9,9 @@ function EnglishSubject() {
 
   // Animation spring for card flip
   const props = useSpring({
-    from: { x: 0 },
-    to: { x: 1 },
+    from: { opacity: 0, transform: "scale(0.5)" },
+    to: { opacity: 1, transform: "scale(1)" },
+    config: { tension: 220, friction: 120 },
   });
 
   return (
@@ -21,13 +22,7 @@ function EnglishSubject() {
           onClick={() => setFlipped(!flipped)}
           style={{ cursor: "pointer" }}
         >
-          <animated.div
-            style={{
-              transform: props.x
-                .to([0, 1], [0, 360])
-                .to((value) => `rotateZ(${value}deg)`),
-            }}
-          >
+          <animated.div style={props}>
             <Card elevation={3}>
               <CardContent className="text-[#c8133e]">
                 <img
@@ -47,7 +42,9 @@ function EnglishSubject() {
                 </Typography>
                 <Typography variant="body2">
                   <span className="font-bold">Board:</span>{" "}
-                  <span className="font-semibold">CBSE / ICSE / ISC/ IGCSE</span>
+                  <span className="font-semibold">
+                    CBSE / ICSE / ISC/ IGCSE
+                  </span>
                 </Typography>
                 <Typography variant="body2" style={{ marginTop: 10 }}>
                   <strong>Teacher:</strong> Navita Tewari

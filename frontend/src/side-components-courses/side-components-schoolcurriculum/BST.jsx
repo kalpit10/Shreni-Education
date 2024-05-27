@@ -6,10 +6,11 @@ import BusinessStudies from "../../images/BST.png";
 function BST() {
   const [flipped, setFlipped] = useState(false);
 
-  // Animation spring for card flip
+  // Animation spring for fade-in and scale
   const props = useSpring({
-    from: { x: 0 },
-    to: { x: 1 },
+    from: { opacity: 0, transform: "scale(0.5)" },
+    to: { opacity: 1, transform: "scale(1)" },
+    config: { tension: 220, friction: 120 },
   });
 
   return (
@@ -20,13 +21,7 @@ function BST() {
           onClick={() => setFlipped(!flipped)}
           style={{ cursor: "pointer" }}
         >
-          <animated.div
-            style={{
-              transform: props.x
-                .to([0, 1], [0, 360])
-                .to((value) => `rotateZ(${value}deg)`),
-            }}
-          >
+          <animated.div style={props}>
             <Card elevation={3} className="md:mt-24">
               <CardContent className="text-[#c8133e]">
                 <img
