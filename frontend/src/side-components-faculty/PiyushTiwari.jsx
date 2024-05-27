@@ -27,7 +27,7 @@ function PiyushTiwari() {
         <p className="text-black text-lg text-center mb-6 whitespace-nowrap">
           Experience: 11 Years
         </p>
-        <div className="flex justify-center space-x-4 mb-6">
+        <div className="flex justify-center space-x-4 mb-6 cursor-pointer">
           <BiLogoGmail size={24} className="text-blue-600" />
         </div>
         <button className="classy-button" onClick={handleModal}>
