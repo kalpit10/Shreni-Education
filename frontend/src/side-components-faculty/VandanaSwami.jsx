@@ -23,7 +23,7 @@ function VandanaSwami() {
           Vandana Swami
         </h1>
         <p className="text-black font-bold text-sm text-center whitespace-nowrap">
-          Faculty - Hindi-Sanskrit(Online)
+          Faculty - Hindi-Sanskrit (Online)
         </p>
         <p className="text-black text-lg text-center mb-6 whitespace-nowrap">
           Experience: 22 Years
