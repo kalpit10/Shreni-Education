@@ -1,8 +1,8 @@
 import React from "react";
-import Memory1 from "../images/Memory1.jpg";
+import Memory4 from "../images/Memory1.jpg";
 import Memory2 from "../images/Memory2.jpg";
 import Memory3 from "../images/memory3.jpg";
-import Memory4 from "../images/memory4.jpg";
+import Memory1 from "../images/memory4.jpg";
 import Carousel from "./Carousel";
 import "../stylesheet/Home.css";
 import HorizontalLine from "./HorizontalLine";
@@ -13,7 +13,7 @@ function HomeCarousel() {
   return (
     <div style={{}}>
       <div className="text-center text-4xl my-6">
-        <span>MEMORIES</span>
+        <span>HIGHLIGHTS</span>
       </div>
       <div className="relative">
         <HorizontalLine />
