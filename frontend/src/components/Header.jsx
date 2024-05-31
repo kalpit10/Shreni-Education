@@ -67,7 +67,7 @@ function Header() {
   return (
     <div
       ref={dropdownRef}
-      className="relative dark:bg-gray-900 flex justify-between items-center h-24 mx-auto px-4 text-white 2xl:w-11/12"
+      className="relative bg-gray-900 flex justify-between items-center h-24 mx-auto px-4 text-white 2xl:w-11/12"
     >
       {/* Logo */}
       <Link to="/" className="custom-link">
@@ -134,7 +134,7 @@ function Header() {
       <ul
         className={
           nav
-            ? "fixed md:hidden z-[2] left-0 top-0 w-[60%] h-full border-r border-r-gray-900 dark:bg-gray-900 ease-in-out duration-500"
+            ? "fixed md:hidden z-[2] left-0 top-0 w-[60%] h-full border-r border-r-gray-900 bg-gray-900 ease-in-out duration-500"
             : "ease-in-out w-[60%] duration-500 z-[2] fixed top-0 bottom-0 left-[-100%]"
         }
       >
@@ -171,7 +171,7 @@ function Header() {
         {/* Render dropdown content outside loop */}
         {coursesDropdown && (
           <ul className="pl-4 left-0 shadow-md rounded-md">
-            <div className="pl-8 mt-2 text-white border-r-gray-900 dark:bg-gray-900 border rounded-lg shadow-lg w-full px-4 py-2 transition ease-in-out duration-300">
+            <div className="pl-8 mt-2 text-white border-r-gray-900 bg-gray-900 border rounded-lg shadow-lg w-full px-4 py-2 transition ease-in-out duration-300">
               <Link to="/cambridge-exams">
                 <li className="p-2 pl-44 border-b rounded-xl hover:bg-[#9CF3C7] duration-300 hover:text-black cursor-pointer border-gray-600 whitespace-nowrap">
                   - Cambridge English

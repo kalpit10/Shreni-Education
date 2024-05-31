@@ -8,13 +8,13 @@ import { Link } from "react-router-dom";
 const currentYear = new Date().getFullYear();
 function Footer() {
   return (
-    <footer className="bottom-0 left-0 right-0 dark:bg-gray-900 flex-grow">
+    <footer className="bottom-0 left-0 right-0 bg-gray-900 flex-grow">
       <div className="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
         <div className="md:flex md:justify-between">
           <div className="mb-6 md:mb-0 mx-auto">
             <Link to="/" className="flex">
               <img src={ShreniLogo} className="h-8 me-3" alt="Shreni Logo" />
-              <span className="self-center text-2xl font-semibold whitespace-nowrap sm:justify-center sm:mx-auto dark:text-white">
+              <span className="self-center text-2xl font-semibold whitespace-nowrap sm:justify-center sm:mx-auto text-white">
                 Shreni Education
               </span>
             </Link>
