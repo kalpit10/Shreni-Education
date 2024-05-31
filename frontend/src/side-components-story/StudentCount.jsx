@@ -33,7 +33,7 @@ function StudentCount() {
                     ></span>
                   )}
                 </CountUp>
-                <span className="block mt-2 text-sm font-semibold">
+                <span className="block mt-2 text-sm font-semibold whitespace-nowrap">
                   2013-14
                 </span>
               </div>
@@ -57,7 +57,7 @@ function StudentCount() {
                     ></span>
                   )}
                 </CountUp>
-                <span className="block mt-2 text-sm font-semibold">
+                <span className="block mt-2 text-sm font-semibold whitespace-nowrap">
                   2014-15
                 </span>
               </div>
@@ -82,7 +82,7 @@ function StudentCount() {
                     ></span>
                   )}
                 </CountUp>
-                <span className="block mt-2 text-sm font-semibold">
+                <span className="block mt-2 text-sm font-semibold whitespace-nowrap">
                   2015-16
                 </span>
               </div>
@@ -106,7 +106,7 @@ function StudentCount() {
                     ></span>
                   )}
                 </CountUp>
-                <span className="block mt-2 text-sm font-semibold">
+                <span className="block mt-2 text-sm font-semibold whitespace-nowrap">
                   2016-17
                 </span>
               </div>
@@ -130,7 +130,7 @@ function StudentCount() {
                     ></span>
                   )}
                 </CountUp>
-                <span className="block mt-2 text-sm font-semibold">
+                <span className="block mt-2 text-sm font-semibold whitespace-nowrap">
                   2017-18
                 </span>
               </div>
@@ -154,7 +154,7 @@ function StudentCount() {
                     ></span>
                   )}
                 </CountUp>
-                <span className="block mt-2 text-sm font-semibold">
+                <span className="block mt-2 text-sm font-semibold whitespace-nowrap">
                   2018-19
                 </span>
               </div>
@@ -178,7 +178,7 @@ function StudentCount() {
                     ></span>
                   )}
                 </CountUp>
-                <span className="block mt-2 text-sm font-semibold">
+                <span className="block mt-2 text-sm font-semibold whitespace-nowrap">
                   2019-20
                 </span>
               </div>
@@ -202,7 +202,7 @@ function StudentCount() {
                     ></span>
                   )}
                 </CountUp>
-                <span className="block mt-2 text-sm font-semibold">
+                <span className="block mt-2 text-sm font-semibold whitespace-nowrap">
                   2020-21
                 </span>
               </div>
@@ -226,7 +226,7 @@ function StudentCount() {
                     ></span>
                   )}
                 </CountUp>
-                <span className="block mt-2 text-sm font-semibold">
+                <span className="block mt-2 text-sm font-semibold whitespace-nowrap">
                   2021-23
                 </span>
               </div>
