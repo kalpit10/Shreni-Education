@@ -13,7 +13,7 @@ function Footer() {
         <div className="md:flex md:justify-between">
           <div className="mb-6 md:mb-0 mx-auto">
             <Link to="/" className="flex">
-              <img src={ShreniLogo} className="h-8 me-3" alt="Shreni Logo" />
+              <img src={ShreniLogo} className="h-8 me-3" alt="Shreni Logo" loading="lazy"/>
               <span className="self-center text-2xl font-semibold whitespace-nowrap sm:justify-center sm:mx-auto text-white">
                 Shreni Education
               </span>
