@@ -129,8 +129,8 @@ function CEL() {
 
         <YLECard
           number="06"
-          title="A2 Key (KET)"
-          subtitle="is a basic level qualification that shows you can use English to communicate in simple situations and have achieved a good foundation in learning English."
+          title="B2 First (FCE)"
+          subtitle=" is an exam for people who need to prove they can use everyday written and spoken English at an upper-intermediate level for work or study purposes."
           description="This course can help your child:"
           listItems={[
             "Understand the main idea of complex pieces of writing",
@@ -144,8 +144,8 @@ function CEL() {
 
         <YLECard
           number="07"
-          title="A2 Key (KET)"
-          subtitle="is a basic level qualification that shows you can use English to communicate in simple situations and have achieved a good foundation in learning English."
+          title="C1 Advanced (CAE)"
+          subtitle=" is a high level English language qualification for demanding professional and academic situations."
           description="This course can help your child:"
           listItems={[
             "Show English proficiency for academic and professional settings.",
