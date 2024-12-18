@@ -52,6 +52,7 @@ function YLECarousel() {
                     className="w-full h-48 md:h-full md:w-6/12 mx-auto"
                     src={d.img}
                     alt=""
+                    loading="lazy"
                   ></img>
                 </div>
               </div>
