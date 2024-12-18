@@ -25,7 +25,7 @@ function StudentCount() {
         <span className="text-xl font-bold">Our Growth Over the Years</span>
         <div className="mt-4">
           <span className="text-lg font-semibold">
-            No. of new students enrolled from 2013-2023
+            No. of new students enrolled from 2013-2024
           </span>
         </div>
 
