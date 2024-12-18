@@ -20,6 +20,7 @@ function NavitaTewari() {
           src={Director}
           className="rounded-full object-cover h-28 -mt-16 mb-8 md:h-32"
           alt="Director"
+          loading="lazy"
         />
         <h1 className="font-bold text-[#2e3192] text-center text-2xl hover-underline-animation-faculty whitespace-nowrap">
           Navita Tewari
@@ -28,7 +29,7 @@ function NavitaTewari() {
           Director Academics
         </p>
         <p className="text-black text-lg text-center mb-6 whitespace-nowrap">
-          Experience: 31 Years
+          Experience: 32 Years
         </p>
         <div className="flex justify-center space-x-4 mb-6">
           <Link to="https://www.linkedin.com/in/navita-tewari-4328b5b3/">

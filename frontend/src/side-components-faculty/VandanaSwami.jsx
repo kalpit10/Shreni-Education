@@ -18,6 +18,7 @@ function VandanaSwami() {
           src={HS}
           className="rounded-full object-cover h-28 -mt-16 mb-8 md:h-32"
           alt="Faculty"
+          loading="lazy"
         />
         <h1 className="font-bold text-[#2e3192] text-center text-2xl hover-underline-animation-faculty whitespace-nowrap">
           Vandana Swami
@@ -26,7 +27,7 @@ function VandanaSwami() {
           Faculty - Hindi-Sanskrit (Online)
         </p>
         <p className="text-black text-lg text-center mb-6 whitespace-nowrap">
-          Experience: 22 Years
+          Experience: 23 Years
         </p>
         <div className="flex justify-center space-x-4 mb-6">
           <a href="mailto: vandanaswami0714@gmail.com">

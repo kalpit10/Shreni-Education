@@ -14,11 +14,12 @@ function VandanaModal({ isVisible, onClose }) {
             src={Vandana}
             alt="Vandana"
             className="w-20 h-20 rounded-full -ml-5"
+            loading="lazy"
           />
           <div className="text-right ml-8">
             <h1 className="font-bold text-xl">Vandana Swami</h1>
             <p className="whitespace-nowrap">Faculty - Hindi-Sanskrit</p>
-            <p>Experience: 22 Years</p>
+            <p>Experience: 23 Years</p>
           </div>
         </div>
         <div className="mt-4">
@@ -27,7 +28,7 @@ function VandanaModal({ isVisible, onClose }) {
             <span className="font-semibold">
               Faculty for Hindi and Sanskrit
             </span>{" "}
-            at Shreni Education with over 22 years of teaching experience. A
+            at Shreni Education with over 23 years of teaching experience. A
             distinguished gold medalist in Sanskrit, she excels in imparting
             knowledge and passion for these languages. Her engaging teaching
             methods and profound knowledge have inspired countless students.

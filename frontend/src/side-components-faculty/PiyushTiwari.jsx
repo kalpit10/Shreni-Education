@@ -17,6 +17,7 @@ function PiyushTiwari() {
           src={Piyush}
           className="rounded-full object-cover h-28 -mt-16 mb-8 md:h-32"
           alt="Director"
+          loading="lazy"
         />
         <h1 className="font-bold text-[#2e3192] text-center text-2xl hover-underline-animation-faculty md:whitespace-nowrap">
           Piyush Kumar Tiwari
@@ -25,7 +26,7 @@ function PiyushTiwari() {
           Director Administration
         </p>
         <p className="text-black text-lg text-center mb-6 whitespace-nowrap">
-          Experience: 11 Years
+          Experience: 12 Years
         </p>
         <div className="flex justify-center space-x-4 mb-6 cursor-pointer">
           <BiLogoGmail size={24} className="text-blue-600" />
