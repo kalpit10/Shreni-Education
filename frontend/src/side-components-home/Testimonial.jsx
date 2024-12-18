@@ -163,7 +163,12 @@ function Testimonials() {
             {data.map((d, index) => (
               <div key={index} className="mx-auto gap-8 group">
                 <div className="bg-white/10 group-hover:blur-sm hover:!blur-none group-hover:scale-[0.85] duration-500 p-8 rounded-xl mix-blend-luminosity mx-6">
-                  <img className="h-44 mx-auto" src={d.img} alt=""></img>
+                  <img
+                    className="h-44 mx-auto"
+                    src={d.img}
+                    alt=""
+                    loading="lazy"
+                  />
                 </div>
                 <div className="text-sm leading-7 my-3 font-light opacity-50">
                   <p className="uppercase text-xl font-bold">{d.name}</p>

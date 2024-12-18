@@ -16,7 +16,12 @@ function StandardisedExams() {
       <div className="container mx-auto flex flex-col md:flex-row py-8 px-4">
         {/* Image Section */}
         <div className="md:w-1/2">
-          <img className="w-full md:mt-32 lg:mt-0" src={Exams} alt="School" />
+          <img
+            className="w-full md:mt-32 lg:mt-0"
+            src={Exams}
+            alt="School"
+            loading="lazy"
+          />
         </div>
 
         {/* Course Details Section */}

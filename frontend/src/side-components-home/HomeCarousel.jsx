@@ -22,7 +22,7 @@ function HomeCarousel() {
       <div className="max-w-lg mx-auto mb-8 w-80 md:w-9/12">
         <Carousel autoSlide={true}>
           {slides.map((s) => (
-            <img src={s} alt="" key={s} />
+            <img src={s} alt="" key={s} loading="lazy"/>
           ))}
         </Carousel>
       </div>

@@ -64,6 +64,7 @@ function DirectorMessage() {
                   src={Director}
                   alt="Director"
                   className="w-full h-60 object-contain"
+                  loading="lazy"
                 />
               </div>
             </div>
