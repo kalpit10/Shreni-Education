@@ -2,9 +2,10 @@ import React from "react";
 import { Typography } from "@mui/material";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
-import IELTS from "./side-components-SE/IELTS";
-import GMAT from "./side-components-SE/GMAT";
-import SAT from "./side-components-SE/SAT";
+import SE3 from "../images/SE3.png";
+import SE2 from "../images/SE2.png";
+import SE1 from "../images/SE1.png";
+import ExamList from "./side-components-SE/ExamList";
 
 function SE() {
   return (
@@ -32,13 +33,33 @@ function SE() {
       </div>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mx-auto max-w-7xl px-4 md:pb-12 2xl:pb-36">
         <div>
-          <IELTS />
+          <ExamList
+            img={SE1}
+            title="IELTS (International English Language Testing System)"
+            subtitle="IELTS"
+            description=" exam is for those who either wish to study further or work abroad. It is a requirement for proving your proficiency in english all around the world."
+            linkExamWebsite="https://www.ielts.org"
+          />{" "}
         </div>
         <div>
-          <GMAT />
+          <ExamList
+            img={SE2}
+            title="GMAT (Graduate Management Admission Test)"
+            subtitle="GMAT"
+            subject="*We teach only English"
+            description="measures your command of basic arithmetic, algebra, geometry, multi-source data analysis, and grammar. More importantly, it measures your ability to analyze and evaluate written material, think critically and solve problems."
+            linkExamWebsite="https://www.mba.com/exams/gmat-exam"
+          />{" "}
         </div>
         <div>
-          <SAT />
+          <ExamList
+            img={SE3}
+            title="SAT (Scholastic Assessment Test)"
+            subtitle="SAT"
+            subject="*We teach only English"
+            description="is a standardized test widely used for college admissions in the United States. The exam has four sections: Reading, Writing, Language and Math."
+            linkExamWebsite="https://satsuite.collegeboard.org/sat"
+          />{" "}
         </div>
       </div>
       <Footer />

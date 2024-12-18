@@ -1,21 +1,119 @@
 import React from "react";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
-import EnglishSubject from "./side-components-schoolcurriculum/English";
-import MathsSubject from "./side-components-schoolcurriculum/MathsSubject";
-import SocialStudies from "./side-components-schoolcurriculum/SocialStudies";
-import Psychology from "./side-components-schoolcurriculum/Psychology";
-import Accountancy from "./side-components-schoolcurriculum/Accountancy";
-import IncomeTax from "./side-components-schoolcurriculum/IncomeTax";
-import Economics from "./side-components-schoolcurriculum/Economics";
 import { Typography } from "@mui/material";
-import BST from "./side-components-schoolcurriculum/BST";
-import Geography from "./side-components-schoolcurriculum/Geography";
-import History from "./side-components-schoolcurriculum/History";
-import PolScience from "./side-components-schoolcurriculum/PolScience";
-import HindiSanskrit from "./side-components-schoolcurriculum/HindiSanskrit";
+import SubjectCard from "./side-components-schoolcurriculum/SubjectCard";
+import AccountancySubject from "../images/Accountancy.png";
+import English from "../images/EnglishSubject.png";
+import BusinessStudies from "../images/BST.png";
+import EcoImage from "../images/eco.png";
+import Geo from "../images/Geography.png";
+import HS from "../images/HindiSanskrit.png";
+import HistorySubject from "../images/History.png";
+import IncomeTaxSubject from "../images/Incometax.png";
+import MathsImage from "../images/Maths.png";
+import Pol from "../images/PolScience.png";
+import PsychologySubject from "../images/Psychology2.png";
+import SST from "../images/SST.png";
 
 const SchoolCurriculum = () => {
+  const subjects = [
+    {
+      img: AccountancySubject,
+      subjectTitle: "Accountancy",
+      classTitle: "XI - XII",
+      board: "CBSE / ICSE / College-Level",
+      teacher: "Piyush Kumar Tiwari",
+      textColor: "text-[#c8133e]",
+    },
+    {
+      img: English,
+      subjectTitle: "English",
+      classTitle: "III - XII",
+      board: "CBSE / ICSE / ISC / IGCSE",
+      teacher: "Navita Tewari",
+      textColor: "text-[#c8133e]",
+    },
+    {
+      img: BusinessStudies,
+      subjectTitle: "Business Studies",
+      classTitle: "XI - XII",
+      board: "CBSE",
+      teacher: "Piyush Kumar Tiwari",
+      textColor: "text-[#c8133e]",
+    },
+    {
+      img: EcoImage,
+      subjectTitle: "Economics",
+      classTitle: "XI - XII",
+      board: "CBSE / ICSE",
+      teacher: "Piyush Kumar Tiwari",
+      textColor: "text-[#c8133e]",
+    },
+    {
+      img: Geo,
+      subjectTitle: "Geography",
+      classTitle: "III - XII",
+      board: "CBSE / ICSE / ISC / IGCSE",
+      teacher: "Navita Tewari",
+      textColor: "text-[#c8133e]",
+    },
+    {
+      img: HS,
+      subjectTitle: "Hindi-Sanskrit",
+      classTitle: "V - X",
+      board: "CBSE",
+      teacher: "Vandana Swami",
+      textColor: "text-[#c8133e]",
+    },
+    {
+      img: HistorySubject,
+      subjectTitle: "History",
+      classTitle: "XI - XII",
+      board: "CBSE / ICSE / ISC / IGCSE",
+      teacher: "Navita Tewari",
+      textColor: "text-[#c8133e]",
+    },
+    {
+      img: IncomeTaxSubject,
+      subjectTitle: "Income Tax",
+      classTitle: "B.COM",
+      teacher: "Piyush Kumar Tiwari",
+      textColor: "text-[#c8133e]",
+    },
+    {
+      img: MathsImage,
+      subjectTitle: "Maths",
+      classTitle: "III - X",
+      board: "CBSE / ICSE / Haryana Board",
+      teacher: "Piyush Kumar Tiwari",
+      textColor: "text-[#c8133e]",
+    },
+    {
+      img: Pol,
+      subjectTitle: "Political Science",
+      classTitle: "XI - XII",
+      board: "CBSE / ICSE / ISC / IGCSE",
+      teacher: "Navita Tewari",
+      textColor: "text-[#c8133e]",
+    },
+    {
+      img: PsychologySubject,
+      subjectTitle: "Psychology",
+      classTitle: "XI - XII",
+      board: "CBSE",
+      teacher: "Navita Tewari",
+      textColor: "text-[#c8133e]",
+    },
+    {
+      img: SST,
+      subjectTitle: "Social Studies",
+      classTitle: "IV - X",
+      board: "CBSE",
+      teacher: "Navita Tewari",
+      textColor: "text-[#c8133e]",
+    },
+  ];
   return (
     <div className="">
       <Header />
@@ -40,42 +138,18 @@ const SchoolCurriculum = () => {
           curriculum better.
         </Typography>
         <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8">
-          <div>
-            <EnglishSubject />
-          </div>
-          <div className="-mt-24">
-            <MathsSubject />
-          </div>
-          <div className="-mt-24">
-            <SocialStudies />
-          </div>
-          <div className="-mt-24">
-            <Psychology />
-          </div>
-          <div className="-mt-24">
-            <Accountancy />
-          </div>
-          <div className="-mt-24">
-            <IncomeTax />
-          </div>
-          <div className="-mt-24">
-            <Economics />
-          </div>
-          <div className="-mt-24">
-            <BST />
-          </div>
-          <div className="-mt-0">
-            <Geography />
-          </div>
-          <div className="">
-            <History />
-          </div>
-          <div className="">
-            <PolScience />
-          </div>
-          <div className="">
-            <HindiSanskrit />
-          </div>
+          {/* Map through all subjects and render cards */}
+          {subjects.map((subject, index) => (
+            <SubjectCard
+              key={index}
+              textColor={subject.textColor}
+              img={subject.img}
+              subjectTitle={subject.subjectTitle}
+              classTitle={subject.classTitle}
+              board={subject.board}
+              teacher={subject.teacher}
+            />
+          ))}
         </div>
         <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8"></div>
       </div>
