@@ -51,7 +51,7 @@ function CEL() {
             "Enjoying books, songs, TV, and films in English.",
             "Making friends globally",
           ]}
-          bgColor="bg-[#c8133e]"
+          bgColor="bg-[#ec3725]"
           textColor="[#ffffff]"
           textColorSecondary="[#fffdf6]"
         />
@@ -82,7 +82,7 @@ function CEL() {
             "Use basic phrases and expressions.",
             "Interact with English speakers who speak clearly.",
           ]}
-          bgColor="bg-[#c8133e]"
+          bgColor="bg-[#ec3725]"
           textColor="[#ffffff]"
           textColorSecondary="[#fffdf6]"
         />
@@ -122,7 +122,7 @@ function CEL() {
             "Ask simple questions and join conversations in study settings.",
             "Write a description of an event, for example, a school trip",
           ]}
-          bgColor="bg-[#c8133e]"
+          bgColor="bg-[#ec3725]"
           textColor="[#ffffff]"
           textColorSecondary="[#fffdf6]"
         />
@@ -154,7 +154,7 @@ function CEL() {
             "Participate confidently in meetings or seminars.",
             "Carry out complex and challenging research",
           ]}
-          bgColor="bg-[#c8133e]"
+          bgColor="bg-[#ec3725]"
           textColor="[#ffffff]"
           textColorSecondary="[#fffdf6]"
         />
