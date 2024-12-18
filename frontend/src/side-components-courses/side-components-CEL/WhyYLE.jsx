@@ -6,7 +6,12 @@ function WhyYLE() {
     <div className="mt-12 xl:w-8/12 xl:mx-auto">
       <div className="border p-12 pb-auto bg-[#1561b8]">
         <div className="flex flex-col md:flex-row items-center">
-          <img src={YLE2} alt="yle2" className="h-52 md:mr-8" />
+          <img
+            src={YLE2}
+            alt="yle2"
+            className="h-52 md:mr-8"
+            loading="lazy" // Lazy loading enabled here
+          />
           <div className="text-white xl:ml-28">
             <h1 className="font-bold text-xl mt-2 md:mt-0 whitespace-nowrap font-serif">
               Reasons to choose YLE:
