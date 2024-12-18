@@ -11,15 +11,23 @@ function CurriculumSchool() {
   };
 
   const linkClick = () => {
-    window.location.href =
-      "https://www.cambridgeinternational.org/programmes-and-qualifications/cambridge-upper-secondary/cambridge-igcse/curriculum/";
+    // Open the link in a new tab
+    window.open(
+      "https://www.cambridgeinternational.org/programmes-and-qualifications/cambridge-upper-secondary/cambridge-igcse/curriculum/",
+      "_blank"
+    );
   };
 
   return (
     <div className="bg-white shadow-lg rounded-lg max-w-4xl mx-auto overflow-hidden mt-5 transform transition-transform duration-300 hover:scale-105 2xl:max-w-5xl">
       <div className="container mx-auto flex flex-col md:flex-row py-8 px-4">
         <div className="md:w-1/2">
-          <img className="w-full md:mt-40 lg:mt-0" src={School} alt="School" />
+          <img
+            className="w-full md:mt-40 lg:mt-0"
+            src={School}
+            alt="School"
+            loading="lazy"
+          />
         </div>
 
         {/* Course Details Section */}

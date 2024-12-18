@@ -12,7 +12,8 @@ function Curriculum() {
   };
 
   const linkClick = () => {
-    window.location.href = "https://www.cambridgeenglish.org/";
+    // Open the link in a new tab
+    window.open("https://www.cambridgeenglish.org/", "_blank");
   };
 
   return (
@@ -22,6 +23,7 @@ function Curriculum() {
           className="w-full xl:w-9/12 xl:mx-auto"
           src={EnrollmentImage}
           alt="Enrollment"
+          loading="lazy"
         />
       </div>
       <div className="text-center py-4 bg-gray-100">
