@@ -1,11 +1,15 @@
-import React, { useState } from "react";
+import React from "react";
 import { Container, Typography, Card, CardContent } from "@mui/material";
 import { useSpring, animated } from "@react-spring/web";
-import IncomeTaxSubject from "../../images/Incometax.png";
 
-function IncomeTax() {
-  const [flipped, setFlipped] = useState(false);
-
+function SubjectCard({
+  textColor,
+  img,
+  subjectTitle,
+  classTitle,
+  board,
+  teacher,
+}) {
   // Animation spring for card flip
   const props = useSpring({
     from: { opacity: 0, transform: "scale(0.5)" },
@@ -18,30 +22,35 @@ function IncomeTax() {
       <div className="flex flex-wrap justify-center">
         <div
           className="w-full sm:w-full md:w-full p-4"
-          onClick={() => setFlipped(!flipped)}
           style={{ cursor: "pointer" }}
         >
           <animated.div style={props}>
-            <Card elevation={3} className="md:pb-20 xl:pb-20 lg:pb-20">
-              <CardContent className="text-[#c8133e]">
-                <img
-                  src={IncomeTaxSubject}
-                  alt="Subject"
-                  className="w-full mb-4 sm:h-64 xl:h-52"
-                />
+            <Card elevation={3} className="pb-12">
+              <CardContent className={`${textColor}`}>
+                {img && (
+                  <img
+                    src={img}
+                    alt={subjectTitle}
+                    className="w-full mb-4 sm:h-64 xl:h-52"
+                    loading="lazy" //lazy loading
+                  />
+                )}
                 <Typography
                   variant="h4"
                   gutterBottom
                   sx={{ fontWeight: "bold" }}
                 >
-                  Income Tax
+                  {subjectTitle}
                 </Typography>
                 <Typography variant="subtitle1" gutterBottom>
-                  <span className="font-bold">Course:</span> B.Com
+                  <span className="font-bold">Classes:</span> {classTitle}
                 </Typography>
-
+                <Typography variant="body2">
+                  <span className="font-bold">Board:</span>{" "}
+                  <span className="font-semibold">{board}</span>
+                </Typography>
                 <Typography variant="body2" style={{ marginTop: 10 }}>
-                  <strong>Teacher:</strong> Piyush Kumar Tiwari
+                  <strong>Teacher:</strong> {teacher}
                 </Typography>
               </CardContent>
             </Card>
@@ -52,4 +61,4 @@ function IncomeTax() {
   );
 }
 
-export default IncomeTax;
+export default SubjectCard;
